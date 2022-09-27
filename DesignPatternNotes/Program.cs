@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using DesignPatternNotes._1__StrategyPattern;
 
-Console.WriteLine("Hello, World!");
+StrategyPatternExample.RunAfter();
