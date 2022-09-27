@@ -1,5 +1,5 @@
 ﻿using DesignPatternNotes._1__StrategyPattern.After.ProcessingOrderStrategies;
-using CustomerSupportBefore = DesignPatternNotes._1__StrategyPattern.before.CustomerSupport;
+using CustomerSupportBefore = DesignPatternNotes._1__StrategyPattern.Before.CustomerSupport;
 using CustomerSupportAfter = DesignPatternNotes._1__StrategyPattern.After.CustomerSupport;
 
 namespace DesignPatternNotes._1__StrategyPattern;

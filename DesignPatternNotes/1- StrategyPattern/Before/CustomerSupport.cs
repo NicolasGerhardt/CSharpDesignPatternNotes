@@ -1,4 +1,4 @@
-﻿namespace DesignPatternNotes._1__StrategyPattern.before;
+﻿namespace DesignPatternNotes._1__StrategyPattern.Before;
 
 public class CustomerSupport
 {
