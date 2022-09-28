@@ -6,7 +6,7 @@ public class RandomOrderStrategy : IProcessingOrderStrategy
     {
         return new List<SupportTicket>(ShuffleTickets(list));
     }
-    
+
     private IList<SupportTicket> ShuffleTickets(IList<SupportTicket> unshuffledTickets)
     {
         var r = new Random();

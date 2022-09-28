@@ -16,7 +16,7 @@ public static class StrategyPatternExample
 
         app.ProcessTickets();
     }
-    
+
     public static void RunAfter()
     {
         var app = new CustomerSupportAfter(new RandomOrderStrategy());

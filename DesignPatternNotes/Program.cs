@@ -1,3 +1,3 @@
-﻿using DesignPatternNotes._1__StrategyPattern;
+﻿using DesignPatternNotes._2___DependencyInversion;
 
-StrategyPatternExample.RunAfter();
+DependencyInversionExample.RunAfter();

@@ -2,8 +2,8 @@
 
 public class SupportTicket
 {
-    public Guid Id;
     public string Customer;
+    public Guid Id;
     public string Issue;
 
     public SupportTicket(string customer, string issue)

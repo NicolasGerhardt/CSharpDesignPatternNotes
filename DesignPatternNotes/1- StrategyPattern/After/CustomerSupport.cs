@@ -4,8 +4,8 @@ namespace DesignPatternNotes._1__StrategyPattern.After;
 
 public class CustomerSupport
 {
-    private IProcessingOrderStrategy _processingOrderStrategy;
-    private IList<SupportTicket> _tickets;
+    private readonly IProcessingOrderStrategy _processingOrderStrategy;
+    private readonly IList<SupportTicket> _tickets;
 
     public CustomerSupport(IProcessingOrderStrategy processingOrderStrategy)
     {
@@ -28,10 +28,7 @@ public class CustomerSupport
 
         var orderedList = _processingOrderStrategy.RunStrategy(_tickets);
 
-        foreach (var ticket in orderedList)
-        {
-            ProcessTicket(ticket);
-        }
+        foreach (var ticket in orderedList) ProcessTicket(ticket);
     }
 
     private IList<SupportTicket> ShuffleTickets(IList<SupportTicket> unshuffledTickets)
